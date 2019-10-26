@@ -4,9 +4,6 @@
 }
 
 /* #Main Content */
-.main-content {
-  align-items: center;
-}
 
 .main-content__child {
   padding: 7%;
@@ -50,9 +47,6 @@
   flex-direction: column;
 }
 
-.middle-column {
-}
-
 @media screen and (min-width: 786px) {
   html {
     overflow-y: hidden;
@@ -62,5 +56,8 @@
   }
   .middle-column {
     flex-basis: 50%;
+  }
+  .main-content {
+    align-self: center;
   }
 }
